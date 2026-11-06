@@ -1,6 +1,6 @@
 # m6APrediction
 
-m6APrediction is an R package that uses a random forest model to predict m6A sites from sequence and genomic features. It can predict one site at a time or process multiple sites in a single call.
+m6APrediction is an R package that uses a random forest model to predict m6A sites from sequence and genomic features. Use prediction_single() for one site or prediction_multiple() for multiple sites.
 
 ## Installation
 
@@ -12,7 +12,7 @@ remotes::install_github("Jiaxing-Ye/m6APrediction")
 
 ## Usage
 
-The package includes a trained random forest model and an example input file. Use `prediction_single()` for one site or `prediction_multiple()` for a table of sites.
+The package includes a trained random forest model and a sample CSV file. Use `prediction_single()` to predict one site and `prediction_multiple()` to predict several sites.
 
 ```r
 library(m6APrediction)
